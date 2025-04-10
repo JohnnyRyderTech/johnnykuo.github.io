@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+  background-color: black;
+  color: #8dff33;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: purple;
+  padding: 20px;
+  text-align: center;
+  color: #8dff33;
+}
+
+h1, h2, h3 {
+  color: #8dff33;
+}
+
+a {
+  color: #8dff33;
+  text-decoration: none;
+}
+
+a:hover {
+  color: purple;
+}
+
+button {
+  background-color: #8dff33;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: purple;
+  color: #8dff33;
+}
+
+section {
+  padding: 40px;
+  background-color: #1a1a1a; /* dark gray-black for contrast */
+  border-bottom: 2px solid purple;
+}
